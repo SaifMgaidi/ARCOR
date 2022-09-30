@@ -1,0 +1,207 @@
+@font-face {
+	font-family: 'Roboto';
+	src:
+		url(‘Anton-Regular.ttf’) format(‘truetype’)
+}
+
+
+body {
+    margin: 0;
+}
+
+div.contenue {
+    margin-left: 450px;
+    margin-right: 400px;
+    padding: 0 20px;
+}
+
+div.header {
+    max-width: 100%;
+    max-height: 100%;
+    padding: 10px;
+
+}
+
+div.logo_gauche img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+div.logo_gauche {
+    height: 100px;
+    width: 40%;
+    display: inline-block;
+    box-sizing: border-box;
+    vertical-align: top;
+    padding: 25px;
+    
+}
+
+
+div.logo_droite img {
+    max-width: 100%;
+    max-height: 100%;
+    width: 80%;
+    border-radius: 50%;
+}
+
+
+div.logo_droite {
+    width: 40%;
+    height: 100px;
+    float: right;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 25px;
+    
+    
+}
+
+div.infos {
+    display: inline-block;
+    text-align: left;
+    max-width: 100%;
+    max-height: 100%;
+    width: 20%;
+    margin-right: 0px;
+    vertical-align: top;
+    
+}
+
+div.infos_image {
+    display: inline-block;
+    width: 20%;
+    margin-right: 0;
+    text-align: right;
+    margin-left: 80px;
+  
+}
+
+div.infos p {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 15.75px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', sans-serif;
+}
+
+
+div.description {
+    padding: 20px 20px;
+    width: 100%;
+}
+
+h1 {
+    width: 400px;
+    font-family: "Anton";
+}
+
+div.paragraphe {
+    margin-top: 12px;
+    width: 35%;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 18px;
+    font-family: "Libre Franklin";
+    font-weight: bold;
+}
+
+div.image {
+    width: 50%;
+    display: inline-block;
+    text-align: right;
+}
+
+div.image img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+@media only screen and (max-width: 398px) {
+
+
+    div.contenue {
+        margin: 5px 0px;
+        padding: 0;
+    }
+
+    div.description {
+        padding: 5px;
+        text-align: center;
+        width: 100%;
+    }
+
+    div.infos {
+        margin: 0 10px;
+        width: 25%;
+    }
+
+    div.infos p {
+        font-size: 12px;
+    }
+
+    div.infos_image {
+        width: 25%;
+        margin-left: 47px;
+    }
+
+    div.infos img {
+        width: 10%;
+    }
+
+
+    div.logo_droite {
+        text-align: left;
+        width: 50%;
+        padding: 10px;
+    }
+
+    div.logo_gauche {
+        text-align: left;
+        width: 50%;
+        padding: 10px;
+    }
+
+    div.logo_gauche img {
+        width: 45%;
+    }
+
+    h1 {
+        text-align: center;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+
+    div.image {
+        width: 100%;
+        text-align: center;
+        vertical-align: top;
+    }
+
+    div.paragraphe {
+        width: 80%;
+        font-size: 12px;
+        padding: 0 20px;
+    }
+    
+
+}
+
+@media only screen and (max-width: 912px) {
+    div.contenue {
+        margin: 15px 15px;
+    }
+}
+
+@media only screen and (min-width: 912px) {
+    div.contenue {
+        margin: autos;
+    }
+}
+
+
+
